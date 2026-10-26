@@ -1,0 +1,27 @@
+support,itemsets
+0.5,frozenset({'many_connections'})
+0.3333333333333333,frozenset({'short_duration'})
+0.25,frozenset({'udp'})
+0.5833333333333334,frozenset({'attack'})
+0.25,frozenset({'ssh_service'})
+0.25,frozenset({'failed_logins'})
+0.3333333333333333,frozenset({'normal_bytes'})
+0.25,frozenset({'tcp'})
+0.16666666666666666,frozenset({'longer_duration'})
+0.16666666666666666,frozenset({'https_service'})
+0.4166666666666667,"frozenset({'many_connections', 'attack'})"
+0.3333333333333333,"frozenset({'short_duration', 'many_connections'})"
+0.25,"frozenset({'short_duration', 'attack'})"
+0.25,"frozenset({'short_duration', 'many_connections', 'attack'})"
+0.25,"frozenset({'udp', 'many_connections'})"
+0.16666666666666666,"frozenset({'short_duration', 'udp'})"
+0.16666666666666666,"frozenset({'udp', 'attack'})"
+0.16666666666666666,"frozenset({'short_duration', 'udp', 'many_connections'})"
+0.16666666666666666,"frozenset({'udp', 'many_connections', 'attack'})"
+0.25,"frozenset({'ssh_service', 'attack'})"
+0.25,"frozenset({'ssh_service', 'failed_logins'})"
+0.25,"frozenset({'attack', 'failed_logins'})"
+0.25,"frozenset({'ssh_service', 'attack', 'failed_logins'})"
+0.25,"frozenset({'normal_bytes', 'tcp'})"
+0.16666666666666666,"frozenset({'normal_bytes', 'longer_duration'})"
+0.16666666666666666,"frozenset({'normal_bytes', 'https_service'})"

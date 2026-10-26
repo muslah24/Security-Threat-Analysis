@@ -1,0 +1,4 @@
+Model,Accuracy
+Random Forest,0.8533333333333334
+Extra Trees,0.8533333333333334
+Voting,0.84
