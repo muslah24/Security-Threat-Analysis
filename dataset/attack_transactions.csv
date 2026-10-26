@@ -1,0 +1,13 @@
+items
+many_connections;short_duration;low_bytes;udp
+failed_logins;ssh_service;attack
+many_connections;short_duration;attack
+normal_bytes;longer_duration;tcp
+failed_logins;ssh_service;many_connections;attack
+many_connections;udp;attack
+normal_bytes;https_service;tcp
+short_duration;many_connections;attack
+failed_logins;ssh_service;attack
+normal_bytes;longer_duration;https_service
+many_connections;short_duration;udp;attack
+normal_bytes;tcp;dns_service
